@@ -1,0 +1,74 @@
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 97%;
+}
+body {
+    background-image: url(samurai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: antiquewhite;
+}
+.container {
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.cent {
+    border-radius: 5px;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: darkslateblue;
+}
+.playerDiv,
+.computerDiv {
+    display: inline-block;
+    width: 45%;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+button {
+    padding: 2vh 4vw;
+    font-size: 2vw;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #228B22;
+}
+.playerDiv p,
+.computerDiv p {
+    font-size: 2vw;
+    margin: 2vh 0;
+}
+#playerName,
+#playerPoints,
+#computerPoints {
+    margin-right: 2vw;
+}
+img {
+    width: 10vw;
+    border-radius: 5%;
+    box-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 0.8);
+    margin: 2vh;
+}
+#Winner {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #228B22;
+}
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1% 0;
+}
